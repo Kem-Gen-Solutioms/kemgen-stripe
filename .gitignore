@@ -1,0 +1,51 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json # optional, if using lock file for dev only
+
+# === Env & Secrets ===
+.env
+.env.*             # in case you use .env.local, .env.production, etc.
+
+# === Logs ===
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# === IDEs & Editors ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Testing / Coverage ===
+coverage/
+.nyc_output/
+
+# === Optional: TypeScript ===
+dist/
+build/
+*.tsbuildinfo
+
+# === Optional: Misc ===
+*.bak
+*.swp
+*.tmp
+*.old
+*.orig
+*.rej
+
+# === Optional: Webpack or Build Tools ===
+.cache/
+.next/
+out/
